@@ -8,6 +8,8 @@
 <script>
 import { TimelineMax, TweenMax} from 'gsap';
 import Navbar from '@/components/navbar.vue'; 
+import { gsap, CSSPlugin } from 'gsap/all'
+gsap.registerPlugin(CSSPlugin)
 
 export default {
   mounted(){
