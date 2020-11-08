@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "gsap": "^3.5.1",
     "register-service-worker": "^1.7.1",
+    "split-html-to-chars": "^1.0.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",

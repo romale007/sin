@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
+import About from '../views/About.vue'
+import Loft from '../views/Loft.vue'
 
 Vue.use(VueRouter)
 
@@ -11,10 +13,16 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
+    path: '/loft',
+    name: 'Loft',
+    component: Loft
+  },
+  {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    component: About
+    // component: () => import(/* webpackChunkName: "loft" */ '../views/Loft.vue')
+  },
 ]
 
 const router = new VueRouter({

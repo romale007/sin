@@ -11,8 +11,10 @@
       <li class="nav-item active">
         <router-link class="nav-link" to="/loft">Мебель в стиле лофт<span class="sr-only">Home</span></router-link>
       </li>
+      <!-- <li class="nav-item">
+        <router-link class="nav-link" to="/plywood">Мебель из фанеры</router-link> -->
       <li class="nav-item">
-        <router-link class="nav-link" to="/plywood">Мебель из фанеры</router-link>
+        <router-link class="nav-link" to="/about">About</router-link>
       </li>
     </ul>
   </div>
